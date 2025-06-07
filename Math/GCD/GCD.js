@@ -17,3 +17,21 @@ const solve = function (nums) {
     return a;
 };
 
+// Option 2 - Using a Helper gcd Function (Recursive Euclidean Algorithm)
+function gcd(a, b) {
+    return b === 0 ? a : gcd(b, a % b);
+}
+
+var solve = function (nums) {
+    const minNum = Math.min(...nums);
+    const maxNum = Math.max(...nums);
+
+    return gcd(minNum, maxNum);
+};
+
+// option 3 - With Arrow Functions & Recursion
+const solve = nums => {
+    const gcd = (a, b) => b ? gcd(b, a % b) : a;
+    return gcd(Math.min(...nums), Math.max(...nums));
+};
+

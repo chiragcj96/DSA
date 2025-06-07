@@ -10,7 +10,19 @@ class GCD:
     def __init__(self, arr):
         self.arr = arr
 
+    #  Option 1
     def gcd(self):
         a = min(self.arr)
         b = max(self.arr)
+
         return math.gcd(a, b)
+
+    #  Option 2
+    def gcd2(self):
+        a = min(self.arr)
+        b = max(self.arr)
+        while b:
+            a, b = b, a % b
+
+        return a
+
