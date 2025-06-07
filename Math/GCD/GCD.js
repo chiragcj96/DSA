@@ -35,3 +35,9 @@ const solve = nums => {
     return gcd(Math.min(...nums), Math.max(...nums));
 };
 
+// option 4 - Using .reduce() to Generalize GCD for Entire Array With Arrow Functions & Recursion
+const solve = nums => {
+    const gcd = (a, b) => b ? gcd(b, a % b) : a;
+    return nums.reduce((acc, num) => gcd(acc, num));
+};
+
