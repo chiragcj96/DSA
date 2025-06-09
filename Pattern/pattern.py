@@ -53,3 +53,39 @@ def solve1(N):
 #  option 2: concise and elegant
 def solve2(N):
     return ['*' * i for i in range(1, N + 1)]
+
+# Input 1: N = 4
+# Output 1:
+# a
+# ab
+# abc
+# abcd
+
+class Pattern:
+    def __init__(self, n):
+        self.n = n
+
+    def solve(self):
+        pattern = []
+        for i in range(self.n + 1):
+            row = ''
+            for j in range(i):
+                row += chr(ord('a') + j)
+            pattern.append(row)
+        return pattern
+
+# Input 1: N = 4
+# Output 1:
+# 1
+# 12
+# 123
+# 1234
+
+def pattern5(n):
+    pattern = []
+    for i in range(1, n + 1):
+        row = ''
+        for j in range(1, i + 1):
+            row += str(j)
+        pattern.append(row)
+    return pattern

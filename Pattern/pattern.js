@@ -47,3 +47,22 @@ var solve = function(n){
      }
      return pattern
 };
+
+// Input 1: N = 4
+// Output 1:
+// 1
+// 12
+// 123
+// 1234
+
+var solve4 = function(n){
+     let pattern = []
+     for (let i=1; i<n+1; i++){
+          let row = ''
+          for (let j=1; j<i+1; j++){
+               row+=String(j)
+          }
+          pattern.push(row)
+     }
+     return pattern
+};
