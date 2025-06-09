@@ -89,3 +89,38 @@ def pattern5(n):
             row += str(j)
         pattern.append(row)
     return pattern
+
+# Input 1: N = 4
+# Output 1:
+# * * * *
+# *     *
+# *     *
+# * * * *
+#
+# Input 2: N = 3
+# Output 2:
+# * * *
+# *   *
+# * * *
+
+def solve(self):
+    pattern = []
+    for i in range(self.n):
+        row = ''
+        for j in range(self.n):
+            if (i == 0 or i == self.n - 1) or (j == 0 or j == self.n - 1):
+                row += '*'
+            else:
+                row += " "
+        pattern.append(row)
+    return pattern
+
+def solve(self):
+    return [
+        ''.join(
+            '*' if (i == 0 or i == self.n - 1 or j == 0 or j == self.n - 1) else ' '
+            for j in range(self.n)
+        )
+        for i in range(self.n)
+    ]
+

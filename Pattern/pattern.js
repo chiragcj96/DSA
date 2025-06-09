@@ -66,3 +66,33 @@ var solve4 = function(n){
      }
      return pattern
 };
+
+// Input 1: N = 4
+// Output 1:
+// * * * *
+// *     *
+// *     *
+// * * * *
+//
+// Input 2: N = 3
+// Output 2:
+// * * *
+// *   *
+// * * *
+
+var solve = function(n){
+     let pattern = [];
+
+    for (let i = 0; i < n; i++) {
+        let row = '';
+        for (let j = 0; j < n; j++) {
+            if (i === 0 || i === n - 1 || j === 0 || j === n - 1) {
+                row += '*';
+            } else {
+                row += ' ';
+            }
+        }
+        pattern.push(row);
+    }
+    return pattern;
+};
