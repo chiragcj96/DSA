@@ -33,6 +33,7 @@ var solve = function(n) {
     return pattern;
 };
 
+// --------------------------------------------------------
 // Input 1: N = 4
 // Output 1:
 // *
@@ -48,6 +49,7 @@ var solve = function(n){
      return pattern
 };
 
+// --------------------------------------------------------
 // Input 1: N = 4
 // Output 1:
 // 1
@@ -67,6 +69,7 @@ var solve4 = function(n){
      return pattern
 };
 
+// --------------------------------------------------------
 // Input 1: N = 4
 // Output 1:
 // * * * *

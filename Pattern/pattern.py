@@ -54,6 +54,7 @@ def solve1(N):
 def solve2(N):
     return ['*' * i for i in range(1, N + 1)]
 
+# --------------------------------------------------------
 # Input 1: N = 4
 # Output 1:
 # a
@@ -74,6 +75,7 @@ class Pattern:
             pattern.append(row)
         return pattern
 
+# --------------------------------------------------------
 # Input 1: N = 4
 # Output 1:
 # 1
@@ -90,6 +92,7 @@ def pattern5(n):
         pattern.append(row)
     return pattern
 
+# --------------------------------------------------------
 # Input 1: N = 4
 # Output 1:
 # * * * *
