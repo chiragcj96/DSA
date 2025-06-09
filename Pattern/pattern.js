@@ -39,3 +39,11 @@ var solve = function(n) {
 // **
 // ***
 // ****
+
+var solve = function(n){
+     let pattern = [];
+     for (let i=1; i<n+1; i++) {
+          pattern.push("*".repeat(i));
+     }
+     return pattern
+};
