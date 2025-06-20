@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51f07f0d-4920-4b0e-ac2f-a03bbe662ab5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/RichestCustomerWealth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/RichestCustomerWealth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/shuffleTheArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/shuffleTheArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/RunningSum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/RunningSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/rebuildArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -83,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1749320040091</updated>
       <workItem from="1749320041428" duration="7835000" />
-      <workItem from="1749410901957" duration="6171000" />
+      <workItem from="1749410901957" duration="10421000" />
+      <workItem from="1750419260176" duration="600000" />
     </task>
     <servers />
   </component>
